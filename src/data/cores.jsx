@@ -1,0 +1,21 @@
+export const coresGenreCard = {
+    "ação": "#D32F2F",
+    "aventura": "#7B1FA2", 
+    "animação": "#FF9800", 
+    "comédia": "#4CAF50", 
+    "crime": "#1976D2", 
+    "documentário": "#9E9E9E", 
+    "drama": "#9C27B0", 
+    "família": "#03A9F4", 
+    "fantasia": "#CDDC39", 
+    "história": "#FFEB3B", 
+    "terror": "#B71C1C", 
+    "música": "#00BCD4", 
+    "mistério": "#FF5722", 
+    "romance": "#F06292", 
+    "ficção científica": "#009688", 
+    "cinema tv": "#607D8B", 
+    "thriller": "#795548", 
+    "guerra": "#455A64",
+    "faroeste": "#FF7043" 
+}
