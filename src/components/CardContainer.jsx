@@ -25,13 +25,13 @@ export default function CardContainer({ titulo, children }) {
                 onClick={moverDireita}
                 className="absolute top-1/2 right-5 transform -translate-y-1/2 z-10"
             >
-                <img src={right} alt="Mover para direita" className="w-6 h-6" />
+                <img src={right} alt="Mover para a direita" className="w-6 h-6" />
             </button>
             <button
                 onClick={moverEsquerda}
                 className="absolute top-1/2 left-5 transform -translate-y-1/2 z-10"
             >
-                <img src={left} alt="Mover para esquerda" className="w-6 h-6" />
+                <img src={left} alt="Mover para a esquerda" className="w-6 h-6" />
             </button>
         </div>
     );

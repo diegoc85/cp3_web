@@ -14,7 +14,7 @@ export default function MovieCard({ id, title, name, vote_average, poster_path, 
 
     const updateList = (key, list, setList, movie) => {
         if (list.some(item => item.name === movie.name)) {
-            alert(`O filme já está na lista de ${key === 'watched' ? 'assistidos' : 'quero assistir'}`);
+            alert(`Já está na lista de ${key === 'watched' ? 'Assistidos' : 'Eu Quero Assistir'}`);
             return
         }
         const updatedList = [...list, movie];
